@@ -1,0 +1,1 @@
+from WakeWISE.PropagationModels.utils.Framework.windfarmgnn import WindFarmGNN # noqa: F401

@@ -1,0 +1,27 @@
+
+layout: 4 # Either 1) size of grid, NxN layout, or 2) str of path to layout file. Other options, ndarray or Data, must be provided in the constructor
+layout_D: 500 # Distance between turbines in layout
+connectivity: 'fully_connected' # 'fully_connected', 'delaunay', 'radial', 'knn'
+render_mode: 'none' # 'none', 'human'
+debug: False # Debug mode
+timestep: 10 # Timestep in minutes
+max_episode_timesteps: 1000 # Maximum number of timesteps per episode
+time_horizon_years: 20 # Time horizon in years
+random_seasonal_time: True # Random seasonal time
+random_windfarm_time: False # Random windfarm time
+random_D_initialisation: False # Random initialisation of D vectors
+random_D_initialisation_range: [0.0, 1.0] # Range for random initialisation of D vectors
+multi_agent_collective_reward: True # Collective reward for multi-agent
+multi_agent_collective_observation: False # Collective observation for multi-agent
+maintenance:
+  exponential_c: 15.00 # Exponential c for expontial dense reward calculation
+  exponential_c_schedule: True # Exponential c schedule
+  exponential_c_schedule_values: [0.0, 15.0] # Exponential c schedule values
+  exponential_c_schedule_times: [1000, 2500] # Exponential c schedule episodes
+reward_mode: 'combined' # 'profit', 'damage', 'combined'
+fraction_terminated_episodes: null # Fraction of episodes initiated sufficiently close to the end of the time horizon to be terminated; set to 0.0 for default probability
+seed: null # Random seed
+fix_rate: False
+fix_rate_value: 70
+fix_wd: False
+fix_wd_value: 180

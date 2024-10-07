@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "WakeWISE"
+version = "1.0"
+dependencies = [
+  "torch_scatter==2.1.2",
+  "torch_geometric==2.5.0",
+  "torch==2.2.1",
+  "ruamel.yaml==0.18.6",
+  "python-box==7.1.1",
+  "pygame==2.5.2",
+  "gymnasium==0.29.1"
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Bas van Berkel"},
+]
+maintainers = [
+  {name = "Bas van Berkel"}
+]
+description = "A wind farm environment for reinforcement learning"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["Wake Steering", "Reinforcement Learning", "Wind Farm"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/bdvanberkel/WakeWISE.git"

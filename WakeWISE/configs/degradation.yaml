@@ -1,0 +1,63 @@
+components:
+  Blade Flapwise: 
+    type: 'Blade Flapwise'
+    del_u: 55387.45060126
+    m: 10
+    idx: [3]
+    maintenance:
+      replace: 
+        duration: 1800
+        cost: 120901.57
+      repair:
+        duration: 900
+        cost: 60450.79
+  Blade Edgewise:
+    type: 'Blade Edgewise'
+    del_u: 35638.86430808
+    m: 10
+    idx: [4]
+    maintenance:
+      replace:
+        duration: 1800
+        cost: 120901.57
+      repair:
+        duration: 900
+        cost: 60450.79
+  Tower Fore Aft:
+    type: 'Tower Fore Aft'
+    del_u: 6164133.41282175
+    m: 4
+    idx: [7]
+    maintenance:
+      replace:
+        duration: 3600
+        cost: 829755.28
+      repair:
+        duration: 1800
+        cost: 414877.64
+  Tower Side Side:
+    type: 'Tower Side Side'
+    del_u: 1959897.2450602
+    m: 4
+    idx: [6]
+    maintenance:
+      replace:
+        duration: 3600
+        cost: 829755.28
+      repair:
+        duration: 1800
+        cost: 414877.64
+  Yaw System:
+    type: 'Yaw System'
+    del_u: 63603.47183913
+    m: 7
+    idx: [5]
+    maintenance:
+      replace:
+        duration: 900
+        cost: 125013.75
+      repair:
+        duration: 450
+        cost: 62506.88
+extra:
+  damage_safety_factor: 1.00
